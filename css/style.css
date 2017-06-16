@@ -1,0 +1,26 @@
+p {
+font-family: 'Pangolin', cursive;
+}
+h1 {
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {color:red; left:-600px; top:0px;}
+    100%  {color:black; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {color:red; left:-600px; top:0px;}
+    100%  {color:black; left:0px; top:0px;}
+}
+
+body {
+	background-color: orange;
+}
